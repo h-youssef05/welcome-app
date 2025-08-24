@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
         </style>
       </head>
       <body>
-        <h1>Hello, SAP BTP World from!</h1>
+        <h1>Hello, SAP BTP World!</h1>
       </body>
     </html>
   `);
