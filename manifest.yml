@@ -1,0 +1,7 @@
+---
+applications:
+  - name: welcome-app
+    memory: 128M
+    buildpacks:
+      - nodejs_buildpack
+    command: node server.js
