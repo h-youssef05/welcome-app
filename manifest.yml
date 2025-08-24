@@ -1,7 +1,9 @@
----
 applications:
   - name: welcome-app
     memory: 128M
     buildpacks:
       - nodejs_buildpack
     command: node server.js
+    routes:
+      - route: welcome-app-dev-wel.cfapps.us10-001.hana.ondemand.com
+
